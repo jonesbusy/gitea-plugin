@@ -53,6 +53,12 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!-- Remove when on BOM -->
+            <dependency>
+                <groupId>io.jenkins.plugins</groupId>
+                <artifactId>jackson3-api</artifactId>
+                <version>3.1.1-68.v2a_4b_025ea_657</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <dependencies>
@@ -65,8 +71,8 @@
             <artifactId>authentication-tokens</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.jenkins-ci.plugins</groupId>
-            <artifactId>jackson2-api</artifactId>
+            <groupId>io.jenkins.plugins</groupId>
+            <artifactId>jackson3-api</artifactId>
         </dependency>
         <dependency>
             <groupId>org.jenkins-ci.plugins</groupId>
